@@ -1,0 +1,3 @@
+document.write('<header class="navbar navbar-dark"><ul class="navbar-nav"><li id="current_date" class="nav-item"></li></ul></header><nav class="main-navbar navbar navbar-expand-lg navbar-dark py-4"><a class="navbar-brand" href="">Sarkaar Sahyog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button><div id="navbarContent" class="collapse navbar-collapse"></div></nav>');
+
+document.getElementById("current_date").innerHTML = Date();

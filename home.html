@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a3161b4d26.js" crossorigin="anonymous"></script>
+
+    <title>Sarkaar Sahyog</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <script src="header1.js"></script>
+    <section class="main">
+        <div class="row">
+            <div class="col-lg-3 my-auto">
+                <button class="btn btn-lg btn-block my-4" onclick="location.href='RegisterComplaint.html'"><i class="fa-solid fa-pen-clip mr-3"></i>Register Complaint</button>
+                <button class="btn btn-lg btn-block my-4" onclick="location.href='CheckComplaint.html'"><i class="fa-solid fa-file-lines mr-4"></i>Complaint Status</button>
+                <button class="btn btn-lg btn-block my-4" onclick="location.href='feedback.html'"><i class="fa-solid fa-comment-dots mr-3"></i>Provide Feedback</button>
+                <button class="btn btn-lg btn-block my-4" onclick="location.href='index.html'"><i class="fa-solid fa-user-minus mr-3"></i>Logout of Account</button>
+            </div>
+            <div class="col-lg-9">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="card">
+                              <div class="row no-gutters">
+                                <div class="col-4">
+                                    <img src="images/narendra-modi.jpg" class="card-img minister">
+                                  </div>
+                                  <div class="col-8 my-auto">
+                                    <div class="card-body">
+                                      <h2 class="card-title">Narendra Modi</h2>
+                                      <h4 class="card-text">Prime Minister of India</h4>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <div class="row no-gutters">
+                              <div class="col-4">
+                                  <img src="images/Dharmendra-Pradhan.jpg" class="card-img minister">
+                                </div>
+                                <div class="col-8  my-auto">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Dharmendra Pradhan</h2>
+                                    <h4 class="card-text">Minister of Education</h4>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <div class="row no-gutters">
+                              <div class="col-4">
+                                  <img src="images/Nitin-Gadkari.jpg" class="card-img minister">
+                                </div>
+                                <div class="col-8  my-auto">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Nitin Gadkari</h2>
+                                    <h4 class="card-text">Minister of Road Transport and Highways</h4>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <div class="row no-gutters">
+                              <div class="col-4">
+                                  <img src="images/mansukh-mandaviya.jpg" class="card-img minister">
+                                </div>
+                                <div class="col-8  my-auto">
+                                  <div class="card-body">
+                                    <h2 class="card-title">Mansukh Mandaviya</h2>
+                                    <h4 class="card-text">Minister of Health and Family Welfare</h4>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-start" role="tab">Getting Started</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-faqs" role="tab">FAQs</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-help" role="tab">Helpline</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-start" role="tabpanel">Welcome to the official website of the Sarkaar Sahyog Portal by the Ministry Of Personnel, Public Grievances & Pensions, Government of India! This portal has been designed to provide comprehensive, reliable, user-friendly and one-stop source of registering complaints, only for  the citizens of India. If you are visiting this website for the first time and are intending to register a complaint, you may spend a few minutes in reading <a href="">this advisory</a>.</div>
+            <div class="tab-pane fade" id="nav-faqs" role="tabpanel">
+              <ul>
+                <li>How much time will my complaint take to be processed?
+                <ul><li>It depends on the complaint type and complexity. Usually, it takes 3-5 working days.</li></ul>
+                </li>
+                <li>What can a citizen do if he is not satisfied with the redressal of his complaint?
+                  <ul><li>User can submit feedback on the feedback page.</li></ul>
+                </li>
+                <li>How do I track my complaint status?
+                  <ul><li>The user can check the status of their complaint on the Complaint Status page.</li></ul>
+                </li>
+            </li></ul></div>
+            <div class="tab-pane fade" id="nav-help" role="tabpanel">
+              <div class="row">
+                <div class="col-4">Police - 100</div>
+                <div class="col-4">Fire - 101</div>
+                <div class="col-4">Ambulance - 102</div>
+                <div class="col-4">Air Ambulance - 9540161344</div>
+                <div class="col-4">Disaster Management - 1078</div>
+                <div class="col-4">Senior Citizen Helpline - 14567</div>
+                <div class="col-4">National Call Centre - 1800-258-1800</div>
+                <div class="col-4">Corona Virus Helpline - 020-26127394</div>
+                <div class="col-4">Parivahan Seva - 1800-22-1250</div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <script src="footer1.js"></script>
+
+</body>
+</html>

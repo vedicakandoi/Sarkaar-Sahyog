@@ -1,0 +1,3 @@
+document.write('<header class="navbar navbar-dark"><ul class="navbar-nav"><li id="current_date" class="nav-item"></li></ul></header><nav class="main-navbar navbar navbar-expand-lg navbar-dark py-4"><a class="navbar-brand" href="home.html">Sarkaar Sahyog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"><span class="navbar-toggler-icon"></span></button><div id="navbarContent" class="collapse navbar-collapse"><ul class="navbar-nav ml-auto"><li class="nav-item mr-3"><a href="home.html" class="nav-link">Home</a></li><li class="nav-item mr-3"><a href="Account.html" class="nav-link">Account</a></li></ul></div></nav>');
+
+document.getElementById("current_date").innerHTML = Date();
